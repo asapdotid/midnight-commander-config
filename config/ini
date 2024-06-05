@@ -62,7 +62,7 @@ editor_group_undo=false
 editor_state_full_filename=false
 editor_ask_filename_before_edit=false
 nice_rotating_dash=true
-shadows=true
+shadows=false
 mcview_remember_file_position=false
 auto_fill_mkdir_name=true
 copymove_persistent_attr=true
@@ -116,6 +116,7 @@ clipboard_paste=
 base_color=
 xterm-256color=
 color_terminals=
+tmux-256color=
 
 [Panels]
 show_mini_info=true
@@ -138,8 +139,19 @@ torben_fj_mode=false
 quick_search_mode=2
 select_flags=6
 
+[DiffView]
+diff_ignore_all_space=false
+diff_ignore_case=false
+diff_ignore_space_change=false
+diff_ignore_tws=false
+diff_quality=0
+diff_tab_expansion=false
+show_numbers=false
+show_symbols=false
+tab_size=8
+
 [Panelize]
 Find SUID and SGID programs=find . \\( \\( -perm -04000 -a -perm /011 \\) -o \\( -perm -02000 -a -perm /01 \\) \\) -print
-Find *.orig after patching=find . -name \\*.orig -print
 Find rejects after patching=find . -name \\*.rej -print
 Modified git files=git ls-files --modified
+Find *.orig after patching=find . -name \\*.orig -print
