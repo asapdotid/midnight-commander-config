@@ -4,9 +4,9 @@ GNU Midnight Commander is a visual file manager, licensed under GNU General Publ
 
 ## Installation
 
-- Copy files from ./skins to ~/.local/share/mc/skins
-- Copy files from ./config to ~/.config/mc/ (optional)
--
+- Copy files from `./skins` to `~/.local/share/mc/skins`
+- Copy files from `./config` to `~/.config/mc` (optional)
+
 ## Activating ways
 
 1. Choose the skin through the mc UI with:
